@@ -1,0 +1,108 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+  background-color: #282c34;
+  color: #fff;
+  padding: 0 10%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.menu{
+  flex-grow: 1;
+  text-align: right;
+}
+header ul{
+  list-style-type: none;
+}
+header li{
+  display: inline-block;
+}
+header li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+}
+
+.App-title{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 30px;
+  background-color: #282c34;
+  color: #fff;
+  padding: 8px 20px;
+}
+
+footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+footer ul li{
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.content{
+  flex-grow: 1;
+  padding: 0 10%;
+}
+
+.istaknuto{
+  background: #83abd5;
+  padding: 10px 30px;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 1px 1px 2px 1px #555555;
+}
+.istaknuto .btn{
+  display: inline-block;
+  padding: 10px 50px;
+  background: #eaa53e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.istaknuto form{
+  margin-top: 10px;
+}
+
+.istaknuto .form-group{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto 10px;
+}
+.istaknuto label{
+  text-align: left;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+.istaknuto input{
+  padding: 5px;
+}
+.istaknuto input:focus-within{
+  outline: solid #4992de;
+}
+.istaknuto button{
+  padding: 4px 15px;
+  background: #f5f1f1;
+  border: none;
+  margin: 10px 0 4px;
+  border-radius: 5px;
+}
