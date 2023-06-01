@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "rc-switch": "^4.1.0",
+    "sass": "^1.62.1"
+  }
+}
